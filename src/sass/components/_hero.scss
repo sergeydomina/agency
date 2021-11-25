@@ -1,0 +1,39 @@
+.hero__title{
+width: 826px;
+
+font-family: Poppins;
+font-weight: 600;
+font-size: 60px;
+line-height: 1.5;
+color: var(--yellow);
+}
+.hero__container{
+    padding-bottom: 224px;
+    padding-top: 71px;
+}
+.discription__container{
+    padding-top: 29px;
+    padding-bottom: 28px;
+    background-color: var(--fill-second);
+    text-align: right;
+}
+.dis__box{
+    overflow: hidden;
+}
+.hero__description{
+    white-space: nowrap;
+font-weight: 700;
+font-size: 45px;
+line-height: 1.36;
+&:not(:last-child){
+    margin-right: 20px;
+}
+
+-webkit-text-stroke: 1px #9A9A9A;
+color: transparent;
+}
+.discription__item{
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+}

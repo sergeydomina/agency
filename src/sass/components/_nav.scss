@@ -1,0 +1,26 @@
+.nav{
+    position: absolute;
+    z-index: 1;
+    width: 233px;
+left: 0px;
+top: 253px;
+padding: 46px 0 39px;
+
+background: var(--fill-nav);
+backdrop-filter: blur(16px);
+
+}
+.nav__link{
+    display: block;
+    outline: none;
+padding: 5px 74px 4px 70px;
+border-radius: 0px 15px 15px 0;
+&:hover,&:focus{
+    background-color: var(--yellow);
+}
+}
+.nav__item{
+    &:not(:last-child){
+        margin-bottom: 8px;
+    }
+}
