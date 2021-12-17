@@ -12,14 +12,14 @@ color: var(--yellow);
     padding-top: 71px;
 }
 .discription__container{
+    width: 934px;
+    overflow: hidden;
     padding-top: 29px;
     padding-bottom: 28px;
     background-color: var(--fill-second);
     text-align: right;
 }
-.dis__box{
-    overflow: hidden;
-}
+
 .hero__description{
     white-space: nowrap;
 font-weight: 700;
@@ -33,6 +33,7 @@ line-height: 1.36;
 color: transparent;
 }
 .discription__item{
+    display: flex;
     &:not(:last-child){
         margin-bottom: 20px;
     }
